@@ -114,4 +114,133 @@ margin-bottom:50px;
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
 gap:25px;
+} .card{
+background:white;
+padding:30px;
+border-radius:15px;
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+text-align:center;
+transition:.3s;
 }
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+.card h3{
+margin:15px 0;
+}
+
+footer{
+background:#0f172a;
+color:white;
+padding:40px;
+text-align:center;
+margin-top:60px;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:36px;
+}
+
+.search-box input{
+width:100%;
+}
+
+nav{
+flex-direction:column;
+gap:20px;
+}
+
+nav ul{
+flex-direction:column;
+text-align:center;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<nav>
+
+<div class="logo">
+BUU-<span>BAY</span>
+</div>
+
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">Services</a></li>
+<li><a href="#">Freelancers</a></li>
+<li><a href="#">Jobs</a></li>
+<li><a href="#">Login</a></li>
+</ul>
+
+</nav>
+
+<section class="hero">
+
+<h1>The Future of Freelancing</h1>
+
+<p>AI-powered freelance marketplace connecting buyers and professionals worldwide.</p>
+
+<a href="#" class="btn">Get Started</a>
+
+<div class="search-box">
+<input type="text" placeholder="Search for services...">
+</div>
+
+</section> <section>
+
+<h2 class="title">Popular Categories</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>💻 Web Development</h3>
+<p>Professional websites and web apps.</p>
+</div>
+
+<div class="card">
+<h3>🎨 Graphic Design</h3>
+<p>Logos, branding and creative designs.</p>
+</div>
+
+<div class="card">
+<h3>🤖 AI Services</h3>
+<p>AI automation and chatbot solutions.</p>
+</div>
+
+<div class="card">
+<h3>📈 Digital Marketing</h3>
+<p>Grow your business online.</p>
+</div>
+
+<div class="card">
+<h3>✍ Content Writing</h3>
+<p>SEO articles and copywriting.</p>
+</div>
+
+<div class="card">
+<h3>🎬 Video Editing</h3>
+<p>Professional video production.</p>
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<h2>BUU-BAY</h2>
+
+<p>© 2026 BUU-BAY. All rights reserved.</p>
+
+</footer>
+
+</body>
+</html>
