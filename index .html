@@ -3,9 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>BUU-BAY</title>
+<title>BUU-BAY | AI Marketplace</title>
 
 <style>
+
 *{
 margin:0;
 padding:0;
@@ -18,119 +19,99 @@ background:#f4f7fb;
 color:#222;
 }
 
-header{
-background:#0d6efd;
-color:white;
-padding:20px 10%;
+nav{
+background:#0f172a;
+padding:18px 8%;
 display:flex;
 justify-content:space-between;
 align-items:center;
 }
 
-header h1{
-font-size:32px;
+.logo{
+color:white;
+font-size:28px;
+font-weight:bold;
+}
+
+.logo span{
+color:#38bdf8;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:30px;
 }
 
 nav a{
 color:white;
 text-decoration:none;
-margin-left:20px;
 font-weight:bold;
+transition:.3s;
+}
+
+nav a:hover{
+color:#38bdf8;
 }
 
 .hero{
-text-align:center;
-padding:100px 20px;
-background:linear-gradient(135deg,#0d6efd,#6610f2);
+padding:100px 8%;
+background:linear-gradient(135deg,#0f172a,#1d4ed8);
 color:white;
+text-align:center;
 }
 
-.hero h2{
-font-size:55px;
+.hero h1{
+font-size:56px;
 margin-bottom:20px;
 }
 
 .hero p{
 font-size:22px;
-margin-bottom:30px;
+max-width:700px;
+margin:auto;
+margin-bottom:35px;
 }
 
 .btn{
 display:inline-block;
 padding:15px 35px;
-background:white;
-color:#0d6efd;
+background:#38bdf8;
+color:white;
 text-decoration:none;
-border-radius:40px;
+border-radius:8px;
 font-weight:bold;
+transition:.3s;
 }
 
-.features{
+.btn:hover{
+background:#0ea5e9;
+}
+
+.search-box{
+margin-top:40px;
+}
+
+.search-box input{
+width:60%;
+padding:18px;
+border:none;
+border-radius:10px;
+font-size:18px;
+}
+
+section{
+padding:70px 8%;
+}
+
+.title{
+text-align:center;
+font-size:38px;
+margin-bottom:50px;
+}
+
+.cards{
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
 gap:25px;
-padding:70px 10%;
 }
-
-.card{
-background:white;
-padding:30px;
-border-radius:15px;
-box-shadow:0 5px 20px rgba(0,0,0,.1);
-text-align:center;
-}
-
-.card h3{
-margin-bottom:15px;
-}
-
-footer{
-background:#111;
-color:white;
-text-align:center;
-padding:30px;
-margin-top:60px;
-}
-</style>
-
-</head>
-
-<body>
-
-<header>
-<h1>BUU-BAY</h1>
-
-<nav>
-<a href="#">Home</a>
-<a href="#">Marketplace</a>
-<a href="#">Freelancers</a>
-<a href="#">About</a>
-<a href="#">Login</a>
-</nav>
-
-</header>
-
-<section class="hero">
-
-<h2>The Future of Freelancing</h2>
-
-<p>AI-powered freelance marketplace connecting buyers and professionals worldwide.</p>
-
-<a href="#" class="btn">Get Started</a>
-
-</section>
-
-<section class="features">
-
-<div class="card">
-<h3>💼 Hire Talent</h3>
-<p>Find verified freelancers in minutes.</p>
-</div>
-
-<div class="card">
-<h3>🤖 AI Assistant</h3>
-<p>AI helps buyers and freelancers work faster.</p>
-</div>
-
-<div class="card">
-<h3>💳
